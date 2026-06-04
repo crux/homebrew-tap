@@ -1,6 +1,6 @@
 cask "schlonk-pad" do
-  version "0.20260510.0"
-  sha256 "0ce03778977e8bb0d111111f1ce191c02f3a5536a9f0e7199fc0f201d9b631fa"
+  version "0.20260604.0"
+  sha256 "44b7d8c1fcf57e12e3fac7a369177cfb7a2ac1f50af8c656b36f8a4293074048"
   url "https://github.com/crux/schlonk-pad/releases/download/v#{version}/SchlonkPad-#{version}.dmg"
 
   name "schlonk-pad"

@@ -1,6 +1,6 @@
 cask "setzer" do
-  version "0.1.3"
-  sha256 "e617bf6021c4693ebe8da1bd0156470db2cc603dcee84794fe6760c107b3445b"
+  version "0.2.0"
+  sha256 "104d9eaf6c1f298daad64eb6a6ac070ce263c598b1f5f08aa6a6dac79eb06f8b"
   url "https://github.com/crux/setzer/releases/download/v#{version}/Setzer-#{version}.dmg"
 
   name "Setzer"

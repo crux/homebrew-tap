@@ -1,6 +1,6 @@
 cask "schlonk-pad-dev" do
-  version "2026.06.04.9"
-  sha256 "943816449a6a49b774615a9b75500ff5470e01a7c43efb7b28ae22685eb7284e"
+  version "2026.10.24.10"
+  sha256 "bbbf0dad9794294ec7023c5fa04284061b1bcb2db13f01bf0d2f52196ab0e38c"
   url "https://github.com/crux/schlonk-pad/releases/download/dev/SchlonkPad-dev-#{version}.dmg"
 
   name "schlonk-pad (dev)"
@@ -9,8 +9,7 @@ cask "schlonk-pad-dev" do
 
   app "SchlonkPad Dev.app"
 
-  postflight do
-    system_command "/usr/bin/xattr",
-      args: ["-rd", "com.apple.quarantine", "#{appdir}/SchlonkPad Dev.app"]
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-rd", "com.apple.quarantine", "{{appdir}}/SchlonkPad Dev.app"]
   end
 end

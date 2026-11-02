@@ -1,27 +1,27 @@
 class Ccctl < Formula
   desc "Inspect and manage Claude Code sessions and project folders"
   homepage "https://github.com/crux/ccctl"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/crux/ccctl/releases/download/v0.1.1/ccctl-0.1.1-darwin-arm64.tar.gz"
-      sha256 "f1b1f01ef241d5a415e5be1d62139e9a0cba55122c23a30252c4b9aff29ac0e1"
+      url "https://github.com/crux/ccctl/releases/download/v0.1.2/ccctl-0.1.2-darwin-arm64.tar.gz"
+      sha256 "c91d041f215cc32fdc0982bc062c3c510f15329e5031e79522335863c02514fa"
     end
     on_intel do
-      url "https://github.com/crux/ccctl/releases/download/v0.1.1/ccctl-0.1.1-darwin-amd64.tar.gz"
-      sha256 "fbf5dafb177f3b4a289016b57da3c35079f0a2f1361dd7221f1c5f0a8be300f4"
+      url "https://github.com/crux/ccctl/releases/download/v0.1.2/ccctl-0.1.2-darwin-amd64.tar.gz"
+      sha256 "b75d937803c9852eec3f5d7604de908d6c52a80db0362d89000f74f6bc915eee"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/crux/ccctl/releases/download/v0.1.1/ccctl-0.1.1-linux-arm64.tar.gz"
-      sha256 "3dda929ae4fe959f0daffa08c53f7ac88f602175d719402558562e9fdf810f2d"
+      url "https://github.com/crux/ccctl/releases/download/v0.1.2/ccctl-0.1.2-linux-arm64.tar.gz"
+      sha256 "39d842c370f2c7e0cc47850813bf674fa8986bb8996f511dd20a9d8795ab3259"
     end
     on_intel do
-      url "https://github.com/crux/ccctl/releases/download/v0.1.1/ccctl-0.1.1-linux-amd64.tar.gz"
-      sha256 "7047813613d37b9f4e3b439976cfd24d0658f96e43d514026e23dada15d1da78"
+      url "https://github.com/crux/ccctl/releases/download/v0.1.2/ccctl-0.1.2-linux-amd64.tar.gz"
+      sha256 "227440e6cfa902b3647c5d1b10df8620c658a43d5105ea93380c6094914124e2"
     end
   end
 
